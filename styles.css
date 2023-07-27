@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: rgb(222, 222, 222);
+  margin: 15px
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(44, 44, 44)
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.info {
+  display: flex;
+}
+
+.info-text {
+  margin-left: 10px;
+}
+
+.info p {
+  line-height: auto;
+  font-style: italic;
+  color: rgb(85, 85, 85);
+}
+
+.avatar {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 15px;
+  width: 200px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+.bg-green {
+  background-color: rgb(219, 255, 208);
+}
+
+.form {
+  background-color: rgb(225, 251, 255);
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  margin-right: 20px;
+  width: 50%
+}
+
+.form-group .form-row:last-child {
+  margin-right: 0;
+}
+
+.form-group label {
+  display: block;
+  color: rgb(59, 59, 59);
+  font-size: 14px;
+}
+
+.form-group input, 
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000000;
+  color: #000000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.btn {
+  background: black;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+@media(max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .form-row {
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
